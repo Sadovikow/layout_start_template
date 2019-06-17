@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns:og="http://ogp.me/ns#" lang="<?=LANGUAGE_ID;?>">
+<head xmlns:og="http://ogp.me/ns#">
+	<!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+	<meta charset="UTF-8">
+	<title>Your website</title>
+	<link rel="stylesheet" href="styles.css">
+	<!-- <link rel="stylesheet" href="sprite.css"> -->
+	<link rel="stylesheet" href="mobile.css">
+	<script src="js/include/jquery.min.js"></script>
+	<script src="js/include/inputmask.js"></script>
+	<script src="js/include/jquery.inputmask.js"></script>
+	<script src="js/script.js"></script>
+	<link rel="icon" type="image/png" href="<?=SITE_TEMPLATE_PATH?>/images/favicon-96x96.png" sizes="96x96">
+    <link rel="apple-touch-icon-precomposed" href="<?=SITE_TEMPLATE_PATH?>/images/favicon-96x96.png">
+    <link rel="apple-touch-icon" sizes="96x96" href="<?=SITE_TEMPLATE_PATH?>/images/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="<?=SITE_TEMPLATE_PATH?>/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="<?=SITE_TEMPLATE_PATH?>/images/favicon-16x16.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="format-detection" content="telephone=no">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.yourwebsite.ru/">
+    <meta property="og:title" content="Your website">
+    <meta property="og:description" content="<?$APPLICATION->ShowProperty('description');?>">
+    <meta property="og:image" content="https://www.yourwebsite.ru/logo.png">
+</head>
+<body>
+	<div class="wrapper">
+		<header>
+			head
+		</header>
+		<main>
+			<div class="container">
+				<div class="breadcrumb">
+					<span><a href="/">Главная</a></span> |
+					<span>Не главная</span>
+				</div>
+				<h1>Заголовок h1</h1>
+				<!-- КОНТЕНТНАЯ ОБЛАСТЬ (start) -->
+				Контент
+				<!-- КОНТЕНТНАЯ ОБЛАСТЬ (end) -->
+			</div>
+		</main>
+	</div> <!-- wrapper -->
+	<div class="foot"></div>
+	<footer>
+		footer
+	</footer>
+</body>
+</html>
